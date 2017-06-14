@@ -1,5 +1,7 @@
 # Dictionary-Lookup-Context-Menu-Edge
 
+Adds a context menu button to lookup the selected text on Dictionary.com in Microsoft Edge. 
+
 To Install this extension on MS Edge, follow the steps below:
 
 ##Download the Repo and extract it
