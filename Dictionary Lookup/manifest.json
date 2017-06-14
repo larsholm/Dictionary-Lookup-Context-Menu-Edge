@@ -1,0 +1,23 @@
+{
+    "author": "Lars Holm Jensen",
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "description": "This extension will add 'Dictionary Lookup' to context menu so as to lookup selected text easily with Dictionary.com when required",
+    "icons": {
+        "48": "icons/48.png",
+        "96": "icons/96.png"
+    },
+    "manifest_version": 2,
+    "name": "Dictionary Lookup",
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "version": "0.1",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}
